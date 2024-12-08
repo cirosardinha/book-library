@@ -1,27 +1,40 @@
-# BibliotecaLivros
+# Book Library
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+A simple book management application built with Angular. Manage your book collection with easy-to-use features for adding, editing, and viewing books.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- View all books in your collection
+- Add new books with title, author, and other details
+- Edit existing book information
+- Delete books from your collection
+- Data persists in your browser using localStorage
 
-## Code scaffolding
+## Technologies
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular
+- TypeScript
+- Tailwind CSS
+- localStorage
 
-## Build
+## Setup
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone the repository
+2. Run `npm install`
+3. Start the app with `ng serve`
+4. Open http://localhost:4200 in your browser
 
-## Running unit tests
+## How to Use
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Browse books on the home page
+- Use the "Add Book" button to create new entries
+- Click "Edit" on any book to update its details
+- Click "Delete" to remove a book
 
-## Running end-to-end tests
+## Project Structure
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+The application follows standard Angular architecture with components for book listing, adding/editing books, and book details.
 
-## Further help
+## License
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+MIT License
